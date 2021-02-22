@@ -22,7 +22,7 @@ comments: true
 <iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Moon&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
       
 ## Installation
-* Fork the [Moon repo](https://github.com/TaylanTatli/Moon/fork)
+* Fork the [Moon repo](https://github.com/Sharp-Lee/Sharp-Lee.github.io/fork)
 * Edit `_config.yml` file.
 * Remove sample posts from `_posts` folder and add yours.
 * Edit `index.md` file in `about` folder.
@@ -47,7 +47,7 @@ That's all.
 {% endcapture %}
 {% include gallery images=images caption="Moon Theme on Small Screen Size" cols=2 %}      
       
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.      
+See a [live version of Moon](https://sharp-lee.github.io) hosted on GitHub.      
 
 ## Site Setup
 A quick checklist of the files you’ll want to edit to get up and running.    
@@ -76,7 +76,7 @@ Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for generating 
 Examples:
 
 {% highlight yaml %}
-url: http://taylantatli.me/Moon
+url: https://sharp-lee.github.io
 url: http://localhost:4000
 url: //cooldude.github.io
 url:
@@ -122,7 +122,7 @@ To set what links appear in the top navigation edit `_data/navigation.yml`. Use 
   url: /about/
 
 - title: Moon
-  url: http://taylantatli.me/Moon
+  url: https://sharp-lee.github.io
 {% endhighlight %}
 
 ---
@@ -151,7 +151,7 @@ To show disqus comments for your post add `comments: true` to your post's front 
 
 ## Questions?
 
-Found a bug or aren't quite sure how something works? By all means [file a GitHub Issue](https://github.com/TaylanTatli/Moon/issues/new). And if you make something cool with this theme feel free to let me know.
+Found a bug or aren't quite sure how something works? By all means [file a GitHub Issue](https://github.com/Sharp-Lee/Sharp-Lee.github.io/issues/new). And if you make something cool with this theme feel free to let me know.
 
 ---
 
