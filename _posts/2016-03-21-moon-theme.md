@@ -13,21 +13,22 @@ tag:
 comments: true
 ---
 
-![Moon Homepage](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
-    
+![Moon Homepage](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)  
+
 <center><b>Moon</b> is a minimal, one column jekyll theme.</center>
-     
+
  I'm not a developer or designer. And I don't add footer to show who did this theme. If you like this theme or using it, please give a **star** for motivation, It makes me happy.
 
-<iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Moon&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
-      
+<iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Moon&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>  
+
 ## Installation
+
 * Fork the [Moon repo](https://github.com/Sharp-Lee/Sharp-Lee.github.io/fork)
 * Edit `_config.yml` file.
 * Remove sample posts from `_posts` folder and add yours.
 * Edit `index.md` file in `about` folder.
-* Change repo name to `YourUserName.github.io`    
-     
+* Change repo name to `YourUserName.github.io`  
+
 That's all.
 
 ## Preview
@@ -45,14 +46,16 @@ That's all.
 	https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png
 	https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png
 {% endcapture %}
-{% include gallery images=images caption="Moon Theme on Small Screen Size" cols=2 %}      
-      
-See a [live version of Moon](https://sharp-lee.github.io) hosted on GitHub.      
+{% include gallery images=images caption="Moon Theme on Small Screen Size" cols=2 %}  
 
-## Site Setup
-A quick checklist of the files you’ll want to edit to get up and running.    
+See a [live version of Moon](https://sharp-lee.github.io) hosted on GitHub.  
 
-### Site Wide Configuration
+## Site Setup  
+
+A quick checklist of the files you’ll want to edit to get up and running.  
+
+### Site Wide Configuration  
+
 `_config.yml` is your friend. Open it up and personalize it. Most variables are self explanatory but here's an explanation of each if needed:
 
 #### title
@@ -86,20 +89,24 @@ url:
 
 Set true to show reading time for posts. And set `words_per_minute`, default is 200.
 
-#### logo
+#### logo  
+
 Your site's logo. It will show on homepage and navigation menu. Also used for twitter meta tags.
 
-#### background
+#### background  
+
 Image for background. If you don't set it, color will be used as a background.
 
 #### Google Analytics and Webmaster Tools
 
 Google Analytics UA and Webmaster Tool verification tags can be entered in `_config.yml`. For more information on obtaining these meta tags check [Google Webmaster Tools](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=35179) and [Bing Webmaster Tools](https://ssl.bing.com/webmaster/configure/verify/ownership) support.
 
-#### MathJax
+#### MathJax  
+
 It's enabled. But if you don't want to use it. Set it false in  `_config.yml`.
 
-#### Disqus Comments
+#### Disqus Comments  
+
 Set your disqus shortname in `_config.yml` to use comments.
 
 ---
@@ -135,16 +142,18 @@ Moon Theme use [Jekyll Compress](https://github.com/penibelst/jekyll-compress-ht
 
 You can set feature image per post. Just add `feature: some link` to your post's front matter.
 
-```
+```bash
 feature: /assets/img/some-image.png
 or
 feaure: http://example.com/some-image.png
-```    
+```  
+
  This also will be used for twitter card:
 
 ![Moon Twitter Card](https://cloud.githubusercontent.com/assets/754514/14509719/61c5751c-01d6-11e6-8c29-ce8ccad149bf.png)
 
-### Comments
+### Comments  
+
 To show disqus comments for your post add `comments: true` to your post's front matter.
 
 ---
