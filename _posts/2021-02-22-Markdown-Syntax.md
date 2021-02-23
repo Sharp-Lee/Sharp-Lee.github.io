@@ -2,7 +2,7 @@
 layout:   post
 title:    Markdown-Syntax
 date:     2021-02-22
-excerpt:  “Markdown基础语法示例”
+excerpt:  "Markdown基础语法示例"
 tags:     [markdown, blockchain learn]
 comments: true
 ---
