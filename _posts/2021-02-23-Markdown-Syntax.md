@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Markdown-Syntax
-date:     2021-02-22
+date:     2021-02-23
 excerpt:  "Markdown基础语法示例"
 tags:     [markdown, blockchain learn]
 comments: true
@@ -14,7 +14,7 @@ comments: true
 
 ### 标题
 
->要创建标题，请#在单词或短语的前面添加数字符号（）。您使用的数字符号的数量应与标题级别相对应。例如，要创建标题级别三（\<h3>），请使用三个数字符号（例如### My Header）。
+要创建标题，请#在单词或短语的前面添加数字符号（）。您使用的数字符号的数量应与标题级别相对应。例如，要创建标题级别三（\<h3>），请使用三个数字符号（例如### My Header）。
 
 | Syntax | 渲染输出 |
 | :------ | :------- |
@@ -27,7 +27,7 @@ comments: true
 
 ### 段落
 
->要创建段落，请使用空白行分隔一行或多行文本。您不应缩进带有空格或制表符的段落。
+要创建段落，请使用空白行分隔一行或多行文本。您不应缩进带有空格或制表符的段落。
 
 | Syntax | 渲染输出 |
 | :------ | :------- |
@@ -35,7 +35,7 @@ comments: true
 
 ### 换行
 
-> 要创建换行符（\<br>），请以两个或多个空格结束一行，然后键入return。
+要创建换行符（\<br>），请以两个或多个空格结束一行，然后键入return。
 
 | Syntax | 渲染输出 |
 | :------ | :------- |
@@ -43,7 +43,7 @@ comments: true
 
 ### 着重
 
-> 您可以通过使文本变为粗体或斜体来增加着重。
+您可以通过使文本变为粗体或斜体来增加着重。
 
 | element | Syntax | 渲染输出 |
 | :-----: | :----: | :------:|
@@ -56,7 +56,7 @@ comments: true
 
 ### 块引用
 
-> 要创建blockquote，请>在段落前面添加一个 `>`。
+要创建blockquote，请>在段落前面添加一个 `>`。
 
 `> Dorothy followed her through many of the beautiful rooms in her castle.`  
 
@@ -66,7 +66,7 @@ comments: true
 
 ### 具有其他元素的块引用
 
-> 块引用可以包含其他Markdown格式的元素。并非所有元素都可以使用-您需要进行实验以查看哪些元素有效。  
+块引用可以包含其他Markdown格式的元素。并非所有元素都可以使用-您需要进行实验以查看哪些元素有效。  
 
 ```text
 > #### The quarterly results look great!
@@ -91,7 +91,7 @@ comments: true
 
 #### 有序列表
 
-> 要创建有序列表，请在订单项中添加数字和句点。数字不必按数字顺序排列，但列表应以数字开头。
+要创建有序列表，请在订单项中添加数字和句点。数字不必按数字顺序排列，但列表应以数字开头。
 
 ```text
 1. First item
@@ -121,7 +121,7 @@ comments: true
 
 #### 无序列表
 
-> 要创建无序列表，请在订单项前添加破折号（-），星号（*）或加号（+）。缩进一个或多个项目以创建嵌套列表。
+要创建无序列表，请在订单项前添加破折号（-），星号（*）或加号（+）。缩进一个或多个项目以创建嵌套列表。
 
 ```text
 - First item
@@ -151,7 +151,7 @@ comments: true
 
 ### 在列表中添加元素
 
-> 要在保留列表连续性的同时在列表中添加另一个元素，请将该元素缩进四个空格或一个制表符，如以下示例所示。
+要在保留列表连续性的同时在列表中添加另一个元素，请将该元素缩进四个空格或一个制表符，如以下示例所示。
 
 #### 段落
 
@@ -195,7 +195,7 @@ comments: true
 
 #### 插入代码块
 
-> 代码块通常缩进四个空格或一个制表符。当它们在列表中时，将它们缩进八个空格或两个选项卡，也可以使用围栏代码块，既` ```代码块``` `。
+代码块通常缩进四个空格或一个制表符。当它们在列表中时，将它们缩进八个空格或两个选项卡，也可以使用围栏代码块，既` ```代码块``` `。
 
 ```text
 1. Open the file.
@@ -243,7 +243,7 @@ comments: true
 
 ### 代码
 
-> 要将单词或短语表示为代码，请将其括在勾号（`）中。
+要将单词或短语表示为代码，请将其括在勾号（`）中。
 
 | Syntax | 渲染输出 |
 | :----: | :------:|
@@ -251,15 +251,15 @@ comments: true
 
 ### 转义刻度线
 
-> 如果要表示为代码的单词或短语包含一个或多个刻度线，可以通过将单词或短语括在双刻度线（``）中来对其进行转义。
+如果要表示为代码的单词或短语包含一个或多个刻度线，可以通过将单词或短语括在双刻度线（``）中来对其进行转义。
 
 | Syntax | 渲染输出 |
 | :----: | :------:|
-| \`\`Use \`code` in your Markdown file.``. | ``Use `code` in your Markdown file.`` |
+| \`\`Use \`code\` in your Markdown file.\`\`. | ``Use `code` in your Markdown file.`` |
 
 ### 代码块
 
-> 要创建代码块，请在代码块的每一行缩进至少四个空格或一个制表符，也可以使用围栏代码块，既` ```代码块``` `。
+要创建代码块，请在代码块的每一行缩进至少四个空格或一个制表符，也可以使用围栏代码块，既` ```代码块``` `。
 
 \`\`\`html  
 \<html>  
@@ -278,7 +278,7 @@ comments: true
 
 ### 水平线
 
-> 要创建水平线***，请单独在一行上使用三个或更多的星号（），破折号（---）或下划线（___）。
+要创建水平线***，请单独在一行上使用三个或更多的星号（），破折号（---）或下划线（___）。
 
 ```text
 ***
@@ -294,7 +294,7 @@ ___
 
 ### 链接
 
-> 要创建链接，请将链接文本括在方括号（例如[Duck Duck Go]）中，然后立即在URL后面加上括号（例如(https://duckduckgo.com)）中的URL 。
+要创建链接，请将链接文本括在方括号（例如[Duck Duck Go]）中，然后立即在URL后面加上括号（例如(https://duckduckgo.com)）中的URL 。
 
 ```text
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
@@ -306,7 +306,7 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
 ### 添加标题
 
-> 您可以选择为链接添加标题。当用户将鼠标悬停在链接上时，这将显示为工具提示。要添加标题，请将其括在URL后面的括号中。
+您可以选择为链接添加标题。当用户将鼠标悬停在链接上时，这将显示为工具提示。要添加标题，请将其括在URL后面的括号中。
 
 ```text
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
@@ -318,7 +318,7 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 
 ### 网址和电子邮件地址
 
-> 要将URL或电子邮件地址快速转换为链接，请将其括在尖括号中。
+要将URL或电子邮件地址快速转换为链接，请将其括在尖括号中。
 
 ```text
 <https://markdown.p2hp.com>
@@ -332,7 +332,7 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 
 ### 格式化链接
 
-> 为了强调链接，请在方括号和括号之前和之后添加星号。
+为了强调链接，请在方括号和括号之前和之后添加星号。
 
 ```text
 I love supporting the **[EFF](https://eff.org)**.
@@ -346,7 +346,7 @@ This is the *[Markdown Guide](https://markdown.p2hp.com)*.
 
 ### 参考样式链接
 
-> 引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。引用样式的链接分为两部分：与文本保持内联的部分以及在文件中其他位置存储的部分，以使文本易于阅读。
+引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。引用样式的链接分为两部分：与文本保持内联的部分以及在文件中其他位置存储的部分，以使文本易于阅读。
 
 #### 格式化链接的第一部分
 
@@ -413,7 +413,7 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 
 ### 图片
 
-> 要添加图像，请添加感叹号（!），然后在括号中添加替代文本，并在括号中添加图像资源的路径或URL。您可以选择在括号中的URL之后添加标题。
+要添加图像，请添加感叹号（!），然后在括号中添加替代文本，并在括号中添加图像资源的路径或URL。您可以选择在括号中的URL之后添加标题。
 
 ```text
 ![Philadelphia's Magic Gardens. This place was so cool!](./../assets/img/posts/2021-02-22-Markdown-Syntax/philly-magic-garden.jpg "Philadelphia's Magic Gardens")
@@ -437,7 +437,7 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 
 ### 转义字符
 
-> 要显示原义字符，否则将用于设置Markdown文档中的文本格式\，请在字符前面添加反斜杠（）。
+要显示原义字符，否则将用于设置Markdown文档中的文本格式\，请在字符前面添加反斜杠（）。
 
 ```text
 \* Without the backslash, this would be a bullet in an unordered list.
